@@ -8,7 +8,7 @@ const bodyParser = require('body-parser');
 const router = express.Router();
 router.get('/', (req, res) => {
   res.writeHead(200, { 'Content-Type': 'text/html' });
-  res.write('<h1>Hello 200 from Express.js!</h1>');
+  res.write('<h1>Hello 200 from Express.js! https://fanciful-eclair-5972cc.netlify.app/.netlify/functions/server/hello   </h1>    ');
   res.end();
 });
 router.get('/hello', (req, res) => {
